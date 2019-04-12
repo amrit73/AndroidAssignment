@@ -6,16 +6,16 @@
     android:layout_height="match_parent"
     android:gravity="center"
     tools:context=".MainActivity"
-
     >
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/CustomButtonStyle"
-        android:text="BMI CALCULATOR!"
+        android:text="BMI CALCULATOR"
         android:id="@+id/bmicalculator"
         android:layout_margin="20dp"
+        android:textSize="30dp"
         
 
         />
@@ -27,6 +27,7 @@
         style="@style/CustomButtonStyle"
         android:layout_below="@id/bmicalculator"
         android:layout_margin="20dp"
+        android:textSize="30dp"
         />
     <Button
         android:layout_width="match_parent"
@@ -36,6 +37,7 @@
         style="@style/CustomButtonStyle"
         android:layout_below="@id/digitwordconverter"
         android:layout_margin="20dp"
+        android:textSize="30dp"
         />
     <Button
         android:layout_width="match_parent"
@@ -45,6 +47,7 @@
         android:layout_below="@id/taxcalculator"
         style="@style/CustomButtonStyle"
         android:layout_margin="20dp"
+        android:textSize="30dp"
         />
 
 

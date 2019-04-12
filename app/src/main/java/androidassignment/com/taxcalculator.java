@@ -25,7 +25,6 @@ public class taxcalculator extends AppCompatActivity implements View.OnClickList
         calculate.setOnClickListener(this);
 
     }
-
     @Override
     public void onClick(View v) {
         getset.setSalary(salary.getText().toString());

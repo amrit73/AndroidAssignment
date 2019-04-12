@@ -8,16 +8,16 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button bmi,tax,car,digittoword;
+    Button bmicalculator,tax,car,digittoword;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        bmi=findViewById(R.id.bmicalculator);
+        bmicalculator =findViewById(R.id.bmicalculator);
         tax=findViewById(R.id.taxcalculator);
         car=findViewById(R.id.car);
         digittoword=findViewById(R.id.digitwordconverter);
-        bmi.setOnClickListener(new View.OnClickListener() {
+        bmicalculator.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, bmicalculator.class);

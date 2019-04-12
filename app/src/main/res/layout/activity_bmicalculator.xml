@@ -37,15 +37,12 @@
         android:hint="Enter Your Weight in Kilogram "
         android:id="@+id/weight"
         android:gravity="center"
-        android:layout_below="@id/height"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="COMPUTE BMI"
         android:id="@+id/computebmi"
-        android:layout_below="@id/weight"
-
         />
     <TextView
         android:layout_width="match_parent"
@@ -54,6 +51,5 @@
         android:hint="Result"
         android:gravity="center"
         android:textSize="30dp"
-        android:layout_below="@id/computebmi"/>
-
+        />
 </LinearLayout>

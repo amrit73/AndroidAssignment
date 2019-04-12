@@ -16,6 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btn_calculate"
+        android:textSize="30dp"
         android:layout_below="@id/et_salary"
         android:hint="Calulate"
         style="@style/CustomButtonStyle"/>
