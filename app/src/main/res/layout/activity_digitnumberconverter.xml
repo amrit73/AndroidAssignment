@@ -29,7 +29,7 @@
         android:id="@+id/btn_changetoword"
         android:layout_below="@id/et_enternumber"
         android:textSize="30dp"
-        android:text="Change"
+        android:text="convert"
         style="@style/CustomButtonStyle"
         />
     <TextView
