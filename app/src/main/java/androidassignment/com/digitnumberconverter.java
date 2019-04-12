@@ -11,6 +11,19 @@ public class digitnumberconverter extends AppCompatActivity implements View.OnCl
     EditText enternumber;
     Button change;
     GetterSetter getset =new GetterSetter();
+    public class GetterSetter {
+
+        private String enternumbmer;
+
+        public String getEnternumbmer() {
+            return enternumbmer;
+        }
+        public void setEnternumbmer(String enternumbmer) {
+            this.enternumbmer = enternumbmer;
+        }
+
+
+    }
     TextView result;
     private static final String[] tensNames = { "", " ten", " twenty", " thirty", " forty",
             " fifty", " sixty", " seventy", " eighty", " ninety" };

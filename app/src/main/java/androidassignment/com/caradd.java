@@ -13,9 +13,50 @@ public class caradd extends AppCompatActivity {
     TextView resultmake, resultyear, resultcolor, resultpurchase, resultengine, display;
     Button createcarr, creatediesel;
     GetterSetter getset = new GetterSetter();
+    public class GetterSetter {
+
+        private String enternumbmer;
+        private String make;
+        private String color;
+        private String year;
+        private String purchase;
+
+        public String getMake() {
+            return make;
+        }
+        public void setMake(String make) {
+            this.make = make;
+        }
+        public String getColor() {
+            return color;
+        }
+        public void setColor(String color) {
+            this.color = color;
+        }
+        public String getYear() {
+            return year;
+        }
+        public void setYear(String year) {
+            this.year = year;
+        }
+        public String getPurchase() {
+            return purchase;
+        }
+        public void setPurchase(String purchase) {
+            this.purchase = purchase;
+        }
+        public String getEngine() {
+            return engine;
+        }
+        public void setEngine(String engine) {
+            this.engine = engine;
+        }
+        private String engine;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_caradd);
         make = findViewById(R.id.et_make);

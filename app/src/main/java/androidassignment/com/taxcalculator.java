@@ -15,6 +15,28 @@ public class taxcalculator extends AppCompatActivity implements View.OnClickList
     Double valuestore;
     TextView result;
     GetterSetter getset =new GetterSetter();
+    public class GetterSetter {
+        public String getSalary() {
+            return salary;
+        }
+        public void setSalary(String salary) {
+            this.salary = salary;
+        }
+        private String salary;
+        public String getEnternumbmer() {
+            return enternumbmer;
+        }
+        public void setEnternumbmer(String enternumbmer) {
+            this.enternumbmer = enternumbmer;
+        }
+        private String enternumbmer;
+        private String make;
+        private String color;
+        private String year;
+        private String purchase;
+
+
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

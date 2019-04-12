@@ -16,6 +16,23 @@ public class bmicalculator extends AppCompatActivity {
     TextView result;
     Double weight1, height1;
     GetterSetter getset= new GetterSetter();
+    public class GetterSetter {
+        public String getHeight() {
+            return height;
+        }
+        public void setHeight(String height) {
+            this.height = height;
+        }
+        public String getWeight() {
+            return weight;
+        }
+        public void setWeight(String weight) {
+            this.weight = weight;
+        }
+        private String height;
+        private String weight;
+
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
