@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".taxcalculator"></activity>
         <activity android:name=".caradd" />
-        <activity android:name=".digitwordconverter" />
+        <activity android:name=".digitnumberconverter" />
         <activity android:name=".bmicalculator" />
         <activity android:name=".MainActivity">
             <intent-filter>

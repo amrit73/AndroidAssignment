@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class caradd extends AppCompatActivity {
     EditText make, year, color, purchase, engine;
     TextView resultmake, resultyear, resultcolor, resultpurchase, resultengine, display;
-    Button createcar, creatediesel;
+    Button createcarr, creatediesel;
     GetterSetter getset = new GetterSetter();
 
     @Override
@@ -23,11 +23,11 @@ public class caradd extends AppCompatActivity {
         color = findViewById(R.id.et_color);
         purchase = findViewById(R.id.et_purchase);
         engine = findViewById(R.id.et_engine);
-        createcar = findViewById(R.id.btn_createcar);
+        createcarr = findViewById(R.id.btn_createcarr);
         creatediesel = findViewById(R.id.btn_creatediesel);
         display = findViewById(R.id.display);
 
-        createcar.setOnClickListener(new View.OnClickListener() {
+        createcarr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 getset.setMake(make.getText().toString());
